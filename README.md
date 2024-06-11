@@ -7,7 +7,7 @@ Script that creates random MAC addresses by assigning real octets in the OUI (Or
 
 Focused on creating real random addresses that are not detected by MAC anti-spoofing techniques.
 
-## Use
+## Install tool
 
 * Download the repository to your system
 
@@ -28,7 +28,7 @@ sudo chmod +x /opt/randomMACreator/randomMACreator.sh
 sudo ln -s /opt/randomMACreator/randomMACreator.sh /usr/bin/randomMACreator
 ```
 
-## Execute tool
+## Use tool
 
 - randomMACreator
 
