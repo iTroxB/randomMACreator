@@ -33,5 +33,3 @@ sudo ln -s /opt/randomMACreator/randomMACreator.sh /usr/bin/randomMACreator
 - randomMACreator
 
 ![](/img/random2.png)
-
----
