@@ -42,7 +42,7 @@ main(){
     random_Last_Octets=$(printf '%02X:%02X:%02X\n' $((RANDOM%256)) $((RANDOM%256)) $((RANDOM%256)))
     mac="$first_Octets:$random_Last_Octets"
     
-    echo -e " \n${green}[✔]${end} ${gray}Random MAC address create:${end} ${turquoise}$mac${end}"
+    echo -e " \n${green}[✔]${end} ${gray}Random MAC address create:${end} ${turquoise}$mac${end}\n"
 }
 
 # Run
