@@ -15,10 +15,16 @@ Focused on creating real random addresses that are not detected by MAC anti-spoo
 sudo git -C /opt clone https://github.com/iTroxB/randomMACreator.git
 ```
 
-* Install the requirements by running **requirements.sh**
+* Install the requirements by running **requirements-arch.sh** for Arch Linux distros
 
 ```shell
-sudo bash /opt/randomMACreator/requirements.sh
+sudo bash /opt/randomMACreator/requirements-arch.sh
+```
+
+or **requirements-debian.sh** for Debian distros
+
+```shell
+sudo bash /opt/randomMACreator/requirements-debian.sh
 ```
 
 * To use the system-level tool as an executable from a relative path, it is recommended to create a symbolic link to the /usr/bin directory from your repository directory.
